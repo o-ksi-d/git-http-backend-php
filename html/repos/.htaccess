@@ -1,0 +1,4 @@
+AuthName "git access"
+AuthType Basic
+AuthUserFile "/var/www/html/repos/.htpasswd"
+Require valid-user
