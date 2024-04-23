@@ -15,7 +15,7 @@ cp -r ./html/* /var/www/html/
 cp -r repos /usr/share/
 chmod -R a+w /usr/share/repos/r.php/
 
-echo GIT doen't support large updates over https by default
+echo GIT doesn't support large updates over https by default
 git config --global http.postBuffer 5000000000
 
 mkdir test
