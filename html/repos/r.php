@@ -1,4 +1,5 @@
 <?php
+/* Adapted from https://github.com/TuzelKO/git-php-backend/blob/master/src/GitPHP/Backend.php */
 
 $projectsDir = "/usr/share/repos/";
 $cmd = "/usr/lib/git-core/git-http-backend";
